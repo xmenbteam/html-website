@@ -1,107 +1,161 @@
+html {
+  max-width: 1024px;
+  margin: auto;
+}
+
 body {
-    overflow-x: hidden;
-    height: 100%;
-    background: #ef476f
+  justify-content: center;
+  overflow-x: hidden;
+  margin: auto;
+  height: 100%;
+  background: #ef476f;
 }
 
 header {
-    height: 100%
+  height: 100%;
+  overflow: hidden;
 }
 
 header .container .row .welcome {
-    left: -80rem;
-    height: 60rem;
-    padding-bottom: 5rem;
+  height: 60rem;
+  padding-bottom: 5rem;
+}
+
+.welcome-pic {
+  /* left: -500rem; */
 }
 
 .about {
-    height: 100%
+  height: 100%;
 }
 
 .about .container .row .thunderbirds {
-    height: 25em;
-
+  height: 25em;
 }
 
 .about .container .grownup .guitar {
-    height: 25rem;
-
+  height: 25rem;
 }
 
 .thunderbirds {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .grownup {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    ;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .about-me-p1 {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .about-me-p2 {
-    margin-top: 7rem
+  margin-top: 7rem;
 }
 
 .square {
-    max-height: 1.6rem;
-    text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 3rem;
+  max-height: 0.5rem;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  margin-bottom: 5rem;
 }
 
 .logo {
-    height: 8rem;
-    padding-top: 1rem
+  height: 5rem;
+  padding-top: 1rem;
 }
 
 .logo-container {
+  justify-content: space-around;
+}
 
-    justify-content: space-around;
+.dev-p {
+  margin-left: 1rem;
 }
 
 .devpic {
-    height: 20rem;
+  height: 20rem;
 }
 
 .card {
-    height: 30rem;
+  height: 25rem;
+}
+
+.projects-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-image {
-    margin-top: 1rem;
-    height: 15rem;
+  margin-top: 1rem;
+  height: 10rem;
 }
 
 .music-website-image {
-    height: 30rem;
+  height: 15rem;
 }
 
 .music {
-    margin-top: 5rem;
-    margin-bottom: 20rem;
+  margin-top: 5rem;
+  margin-bottom: 20rem;
 }
 
 .music-title {
-    margin-bottom: 3rem;
-
+  margin-bottom: 3rem;
 }
 
 .music-p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Sticky Class*/
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.815);
-    z-index: 9999;
-    transition: all 1.5s ease
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+
+/* Back to top arrow*/
+
+.back-to-top {
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 0%;
+}
+
+a.back-to-top {
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+  padding-left: 2px;
+  padding-top: 14px;
+}
+
+.back-to-top:hover,
+.back-to-top:focus,
+.back-to-top:visited {
+  color: #ffffff;
+}
+
+.back-to-top.show {
+  opacity: 1;
 }
