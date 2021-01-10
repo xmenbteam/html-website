@@ -1,6 +1,15 @@
 html {
   max-width: 1024px;
   margin: auto;
+  background: var(--dark-green);
+}
+
+:root {
+  --pink: #ef476fff;
+  --orange: #ffd166ff;
+  --green: #06d6a0ff;
+  --light-blue: #118ab2ff;
+  --dark-green: #073b4cff;
 }
 
 body {
@@ -8,7 +17,19 @@ body {
   overflow-x: hidden;
   margin: auto;
   height: 100%;
-  background: #ef476f;
+  background: var(--pink);
+}
+
+.navbar {
+  background: var(--dark-green);
+}
+
+.navbar-brand {
+  color: var(--orange)
+}
+
+.nav-link {
+  color: var(--orange)
 }
 
 header {
@@ -22,7 +43,38 @@ header .container .row .welcome {
 }
 
 .welcome-pic {
-  /* left: -500rem; */
+  padding: 0;
+}
+
+.pic {
+  border-radius: 1rem;
+}
+
+.panel {
+  position: absolute;
+  top: 4vmin;
+  left: 8vmin;
+  background: var(--orange);
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0px 25px 42px rbg(0, 0, 0, 0.2);
+  z-index: 1;
+  color: (--dark-green)
+}
+
+.panel-item {
+  color: var(--dark-green)
+}
+
+.panel-paragraph {
+  background: var(--dark-green);
+  color: var(--orange);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.home-row {
+  position: relative
 }
 
 .about {
