@@ -1,17 +1,49 @@
+body {
+    overflow-x: hidden;
+    height: 100%;
+    background: #ef476f
+}
+
+header {
+    height: 100%
+}
+
 header .container .row .welcome {
     left: -80rem;
     height: 60rem;
     padding-bottom: 5rem;
 }
 
+.about {
+    height: 100%
+}
+
 .about .container .row .thunderbirds {
-    height: 20rem;
+    height: 25em;
 
 }
 
 .about .container .grownup .guitar {
-    height: 20rem;
+    height: 25rem;
 
+}
+
+.thunderbirds {
+    padding-top: 3rem;
+}
+
+.grownup {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    ;
+}
+
+.about-me-p1 {
+    margin-top: 5rem;
+}
+
+.about-me-p2 {
+    margin-top: 7rem
 }
 
 .square {
