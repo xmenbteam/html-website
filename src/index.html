@@ -11,6 +11,7 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/mobile-style.css" />
+
     <title>samcjparry</title>
 </head>
 
@@ -21,12 +22,12 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="#home">
-                samcjparry</a>
+            <a class="navbar-brand brand" href="#home">
+                scjp</a>
 
             <div id='home' class="collapse navbar-collapse" id="navbarNav">
                 <div class='mr-auto'>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mr-auto">
 
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -55,15 +56,15 @@
     <!-- /* Home */ -->
 
     <header>
-        <div id='home' class="container text-center">
+        <div id='home' class="container-fluid text-center">
             <div class="home-row row">
-                <div class="panel col-md-3 col-sm-12">
-                    <h1 class='panel-item'>sam cj parry</h1>
+                <div class="panel col-3">
+                    <h1 class='panel-item'>sam <span class='cj'>cj</span> parry</h1>
                     <h5 class='panel-item'><em>if you know, you know...</em></h5>
                     <h2 class='panel-item'>DEV // MUSICIAN // VO //</h2>
                 </div>
-                <div class="welcome-pic col-md-9 col-sm-12">
-                    <img class='welcome' src="../assets/Headshot-top.jpg" alt="Headshot by Charlotte Wellings">
+                <div class="welcome-pic col-12">
+                    <img class="img-fluid welcome" src="../assets/Headshot-top.jpg" alt="Headshot by Charlotte Wellings">
                 </div>
 
             </div>
@@ -82,7 +83,7 @@
             <div class="row youth">
                 <div class="col-md-5">
 
-                    <img class='pic thunderbirds' src="../assets/thunderbirds.jpeg" alt="an absolute legend">
+                    <img class='img-fluid pic thunderbirds' src="../assets/thunderbirds.jpeg" alt="an absolute legend">
 
                 </div>
 
@@ -114,7 +115,7 @@
                 </div>
                 <div class="col-md-5">
 
-                    <img class=' pic guitar' src="../assets/Sammusicpic.jpg" alt="trying my best">
+                    <img class='img-fluid pic guitar' src="../assets/Sammusicpic.jpg" alt="trying my best">
 
                 </div>
             </div>
@@ -124,21 +125,19 @@
 
     <!-- /* Dev */ -->
 
-    <section id='dev' class="dev container-fluid p-0">
-        <div class='cover'>
+    <section id='dev' >
+        <div class="dev container-fluid ">
             <div class="content text-center">
-                <h1 class="title dev-title">
-                    sam the dev
-                </h1>
+                <h1 class="title dev-title ">sam the dev</h1>
             </div>
             <div class="row dev">
-                <div class="col-md-4">
+                <div class="col-md-3 col-12">
 
-                    <img class='pic devpic' src="../assets/samdevpic.jpeg" alt="me and my computer">
+                    <img class='rounded float-left pic devpic' src="../assets/samdevpic.jpeg" alt="me and my computer">
 
                 </div>
-
-                <div class="dev-p col-md-7">
+                <div class="col-md-2"></div>
+                <div class="dev-p col-md-7 col-12">
                     <div class="panel-paragraph text-left">
 
                         <p>
@@ -230,7 +229,7 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">This Bloody Website!</h5>
-                                <p class="card-text">Created by yours truly using HTML, CSS, JavaScript and Bootstrap.
+                                <p class="card-text">Created by yours truly using HTML, CSS, JavaScript, and Bootstrap.
                                 </p>
 
                             </div>
@@ -254,10 +253,10 @@
 
     <!-- /* Music */ -->
 
-    <section id='music' class="music container-fluid p-0pt-5 ">
+    <section id='music' class="music container-fluid p-0 pt-5 ">
         <div class='cover'>
             <div class="content text-center">
-                <h1 class=" title music-title">
+                <h1 class="title music-title">
                     sam the arts guy
                 </h1>
                 <h3 class='music-p'>My first love will always be music. You can find out about my three musical passions
@@ -321,54 +320,63 @@
         <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
     </section>
 
-
-
-
-
     <!-- /* Contact */ -->
+
+    <section id='contact'>
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <form class='col-md-6 sm-12 justify-content-center'>
+                <div class="content">
+                    <h1 class=" title contact-title text-center">
+                        contact me
+                    </h1>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">name:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">email address:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ask me anything!"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">submit</button>
+                <div class="col-md-3">
+                
+                </div>
+              </form>
+        </div>
+       
+    </section>
+
     <footer>
 
-    </footer id='contact'>
+   
     <div class="container-fluid p-0">
-        <div class="row text-left">
-            <div class="col-md-5 col-md-5">
-                <h1 class="text-light">About Me</h1>
-
-                <p class='pt-4 text-muted'>
-                    Website ©
-
-                    <span>Sam Parry</span>
-                </p>
-            </div>
-            <div class="col-md-5">
-                <h4 class="text-light">Newsletter</h4>
-                <p class="text-muted">Stay Updated</p>
-                <form class='form-inline'>
-                    <div class="col pl-0">
-                        <div class="input-group pr-5">
-                            <input type="text" class='form-control bg-dark text-white' placeholder='Email'>
-                            <div class="input group prepend">
-                                <div class="input-group-text">
-                                    <i class='fas fa-arrow-right'></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-            <div class="col-md-2 col-sm-12">
-                <h4 class="text-light">Follow Us</h4>
-                <p class="muted-class">Let us be social</p>
+        <div class="row justify-content-md-center">
+            
+            <div class="col-md-6">
+               
                 <div class="column">
+                    <p class='pt-4 text-muted'>
+                        Website ©
+                        <span>Sam Parry</span>
+                    </p>
+                </div>
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-youtube"></i>
                 </div>
-            </div>
+            
         </div>
     </div>
+    <br>
     <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
     </footer>
 

@@ -1,5 +1,5 @@
 html {
-  max-width: 1024px;
+  max-width: 1440px;
   margin: auto;
   background: var(--dark-green);
 }
@@ -17,29 +17,40 @@ body {
   overflow-x: hidden;
   margin: auto;
   height: 100%;
-  background: var(--pink);
+  background: rgb(135, 226, 196);
 }
+
+/* NAVBAR SECTION */
 
 .navbar {
   background: var(--dark-green);
 }
 
 .navbar-brand {
-  color: var(--orange)
+  color: var(--orange);
 }
 
 .nav-link {
-  color: var(--orange)
+  color: var(--orange);
 }
 
+/* HOME */
+
 header {
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
 }
 
 header .container .row .welcome {
-  height: 60rem;
   padding-bottom: 5rem;
+}
+
+.panel-item {
+  /* font-size: 100%; */
+}
+
+.cj {
+  color: var(--light-blue);
 }
 
 .welcome-pic {
@@ -59,11 +70,11 @@ header .container .row .welcome {
   text-align: left;
   box-shadow: 0px 25px 42px rbg(0, 0, 0, 0.2);
   z-index: 1;
-  color: (--dark-green)
+  color: (--dark-green);
 }
 
 .panel-item {
-  color: var(--dark-green)
+  color: var(--dark-green);
 }
 
 .panel-paragraph {
@@ -74,23 +85,18 @@ header .container .row .welcome {
 }
 
 .home-row {
-  position: relative
+  position: relative;
 }
 
-.about {
-  height: 100%;
-}
+/* ABOUT ME SECTION */
 
 .about .container .row .thunderbirds {
-  height: 25em;
+  height: 25rem;
+  width: 25rem;
 }
 
 .about .container .grownup .guitar {
   height: 25rem;
-}
-
-.thunderbirds {
-  padding-top: 3rem;
 }
 
 .grownup {
@@ -104,6 +110,16 @@ header .container .row .welcome {
 
 .about-me-p2 {
   margin-top: 7rem;
+}
+
+/* DEV SECTION */
+
+.dev {
+  margin-left: 0.2rem;
+}
+
+.dev-p {
+  right: 1rem;
 }
 
 .square {
@@ -124,12 +140,12 @@ header .container .row .welcome {
   justify-content: space-around;
 }
 
-.dev-p {
-  margin-left: 1rem;
+.devpic {
+  height: 19rem;
 }
 
-.devpic {
-  height: 20rem;
+.logo-container {
+  padding-bottom: 0.5rem;
 }
 
 .card {
@@ -146,13 +162,20 @@ header .container .row .welcome {
   height: 10rem;
 }
 
+.project-cards {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* MUSIC SECTION */
+
 .music-website-image {
   height: 15rem;
 }
 
 .music {
   margin-top: 5rem;
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
 }
 
 .music-title {
@@ -163,16 +186,19 @@ header .container .row .welcome {
   margin-bottom: 2rem;
 }
 
-/* Sticky Class*/
+/* CONTACT */
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.815);
-  z-index: 9999;
-  transition: all 1.5s ease;
+.contact {
 }
+
+/* FOOTER */
+
+footer {
+  margin-top: 2rem;
+  background-color: var(--dark-green);
+}
+
+/* Sticky Class*/
 
 /* Back to top arrow*/
 
