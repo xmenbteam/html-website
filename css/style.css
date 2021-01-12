@@ -12,12 +12,24 @@ html {
   --dark-green: #073b4cff;
 }
 
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
 body {
   justify-content: center;
   overflow-x: hidden;
   margin: auto;
   height: 100%;
-  background: rgb(135, 226, 196);
+  background-image: url('../assets/website-background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  color: var(--pink);
+  -webkit-text-stroke: 0.2px black;
 }
 
 /* NAVBAR SECTION */
@@ -54,7 +66,7 @@ header .container .row .welcome {
 }
 
 .cj {
-  color: var(--light-blue);
+  color: var(--pink);
 }
 
 .welcome-pic {
@@ -158,6 +170,7 @@ header .container .row .welcome {
 .projects-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
+
 }
 
 .project-image {
@@ -168,20 +181,19 @@ header .container .row .welcome {
 .project-cards {
   margin-left: 1rem;
   margin-right: 1rem;
-  height: 35rem;
+  /* max-width: 28rem; */
 }
 
 .dev-card {
   margin-top: 1rem;
 }
 
-
-
 /* MUSIC SECTION */
 
 .card {
   height: 25rem;
   margin-bottom: 1rem;
+  border-radius: 2rem;
 }
 
 .music-website-image {
@@ -190,11 +202,7 @@ header .container .row .welcome {
 
 .music {
 
-  margin-bottom: 5rem;
-}
-
-.music-title {
-  margin-bottom: 3rem;
+  /* margin-bottom: 5rem; */
 }
 
 .music-p {
@@ -223,7 +231,13 @@ header .container .row .welcome {
 
 /* CONTACT */
 
-
+.back-to-top {
+  background-color: var(--pink);
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: var(--dark-green)
+}
 
 /* FOOTER */
 
