@@ -30,6 +30,8 @@ body {
 
 }
 
+.home-panel {}
+
 .title {
   color: var(--pink);
   -webkit-text-stroke: 0.2px black;
