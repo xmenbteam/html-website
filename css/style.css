@@ -1,5 +1,6 @@
 html {
   max-width: 1440px;
+  width: 100%;
   margin: auto;
   background: var(--dark-green);
   scroll-behavior: smooth;
@@ -20,17 +21,16 @@ hr.rounded {
 
 body {
   justify-content: center;
-  overflow-x: hidden;
   margin: auto;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   background-image: url("../assets/website-background.jpg");
   background-attachment: fixed;
   background-size: cover;
-
+  overflow-x: hidden;
 }
 
-.home-panel {}
+
 
 .title {
   color: var(--pink);
@@ -41,6 +41,7 @@ body {
 
 .navbar {
   background: var(--dark-green);
+  max-width: 100%;
 }
 
 .navbar-brand {
@@ -120,9 +121,10 @@ header .container .row .welcome {
 }
 
 .about .container .row .thunderbirds {
-  height: 50vmin;
-  width: 50vmin;
   margin-bottom: 0.5rem;
+  height: 45vmin;
+  width: 45vmin;
+
 }
 
 .about .container .grownup .guitar {
@@ -131,22 +133,13 @@ header .container .row .welcome {
   width: 50vmin;
 }
 
-.about-me-p1 {
+.about-me {
   text-align: justify;
-  /* margin-top: 1rem; */
-}
 
-.about-me-p2 {
-  text-align: justify;
-  /* margin-top: 1rem; */
 }
 
 .hello-world {
   color: var(--pink);
-}
-
-.about-me {
-  text-align: justify;
 }
 
 .panel-paragraph {
