@@ -23,9 +23,11 @@ body {
   overflow-x: hidden;
   margin: auto;
   height: 100%;
+  width: 100%;
   background-image: url("../assets/website-background.jpg");
   background-attachment: fixed;
   background-size: cover;
+
 }
 
 .title {
@@ -116,14 +118,15 @@ header .container .row .welcome {
 }
 
 .about .container .row .thunderbirds {
-  height: 25rem;
-  width: 25rem;
+  height: 50vmin;
+  width: 50vmin;
   margin-bottom: 0.5rem;
 }
 
 .about .container .grownup .guitar {
   margin-bottom: 0.5rem;
-  height: 25rem;
+  height: 50vmin;
+  width: 50vmin;
 }
 
 .about-me-p1 {
@@ -183,6 +186,8 @@ header .container .row .welcome {
   /* height: 19rem; */
   margin-bottom: 1rem;
   border-radius: 5%;
+  height: 50vmin;
+  width: 50vmin;
 }
 
 .logo-container {
@@ -231,7 +236,7 @@ header .container .row .welcome {
 }
 
 .music-card {
-  width: 25rem;
+  /* width: 70vmin; */
   margin-bottom: 1rem;
   background-color: var(--light-blue);
 }
