@@ -2,6 +2,7 @@ html {
   max-width: 1440px;
   margin: auto;
   background: var(--dark-green);
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -22,7 +23,7 @@ body {
   overflow-x: hidden;
   margin: auto;
   height: 100%;
-  background-image: url('../assets/website-background.jpg');
+  background-image: url("../assets/website-background.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -51,6 +52,10 @@ body {
 }
 
 /* HOME */
+
+#home {
+  padding-top: 55px;
+}
 
 header {
   /* height: 100%; */
@@ -106,36 +111,54 @@ header .container .row .welcome {
 
 /* ABOUT ME SECTION */
 
+#about {
+  padding-top: 55px;
+}
+
 .about .container .row .thunderbirds {
   height: 25rem;
   width: 25rem;
+  margin-bottom: 0.5rem;
 }
 
 .about .container .grownup .guitar {
-  /* margin-top: 1rem; */
+  margin-bottom: 0.5rem;
   height: 25rem;
 }
 
-
-
 .about-me-p1 {
-  margin-top: 1rem;
+  text-align: justify;
+  /* margin-top: 1rem; */
 }
 
 .about-me-p2 {
-  margin-top: 1rem;
+  text-align: justify;
+  /* margin-top: 1rem; */
+}
+
+.hello-world {
+  color: var(--pink);
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.panel-paragraph {
+  padding: 2rem;
 }
 
 /* DEV SECTION */
+
+
+#dev {
+  padding-top: 55px;
+}
 
 .dev {
   margin-left: 0.2rem;
   text-align: center;
   margin-bottom: 1rem;
-}
-
-.dev-p {
-  right: 1rem;
 }
 
 .square {
@@ -157,20 +180,18 @@ header .container .row .welcome {
 }
 
 .devpic {
-  height: 19rem;
+  /* height: 19rem; */
   margin-bottom: 1rem;
+  border-radius: 5%;
 }
 
 .logo-container {
   padding-bottom: 0.5rem;
 }
 
-
-
 .projects-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
-
 }
 
 .project-image {
@@ -190,6 +211,11 @@ header .container .row .welcome {
 
 /* MUSIC SECTION */
 
+#music {
+  padding-top: 55px;
+
+}
+
 .card {
   height: 25rem;
   margin-bottom: 1rem;
@@ -200,18 +226,12 @@ header .container .row .welcome {
   height: 15rem;
 }
 
-.music {
-
-  /* margin-bottom: 5rem; */
-}
-
 .music-p {
   margin-bottom: 2rem;
 }
 
 .music-card {
   width: 25rem;
-
   margin-bottom: 1rem;
   background-color: var(--light-blue);
 }
@@ -232,11 +252,10 @@ header .container .row .welcome {
 /* CONTACT */
 
 .back-to-top {
-  background-color: var(--pink);
-  font-size: 1rem;
-  border-radius: 50%;
-  padding: 0.8rem;
-  color: var(--dark-green)
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
 }
 
 /* FOOTER */
